@@ -20,6 +20,11 @@ body {
     max-width: auto;
 }
 
+.hero-1{
+    background: linear-gradient(49deg, rgba(52,150,193,1) 36%, rgba(34,86,195,1) 69%, rgba(45,175,253,1) 94%);
+    height: 100vh;
+    max-width: auto;
+}
 
 img{
     max-height: 40rem;
@@ -276,6 +281,18 @@ a {
     background-color: rgba(90, 87, 87, 0.301);
 }
 
+@media screen and (max-width:800px){
+    .hero{
+        height: 245vh;
+    }
+}
+
+@media screen and (max-width:800px){
+    iframe{
+        width:"600";
+        height:"450";
+    }
+}
 
 @media screen and (max-width:800px){
     .footer .container-1{
