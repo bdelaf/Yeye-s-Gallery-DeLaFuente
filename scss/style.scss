@@ -317,3 +317,23 @@ ul {
 @keyframes animate__fadeInDown{
 
 }
+
+.body{
+    @if $vista == desktop {
+        @media only screen and (min-width: 1024px){
+            h1{font-size:$h1Desktop;}
+            h2{font-size:20px;}
+            p{font-size:$parrafoDesktop;}
+        }
+    } @else if $vista == mobile {
+        @media only screen and (max-width: 767px){
+            h1{font-size:$h1Mobile;}
+            h2{font-size: 15px;}
+            p{font-size: $parrafoMobile;}
+        }
+    } @else {
+        h1{font-size: 20px;}
+        h2{font-size: 20px;}
+        p{font-size: 20px;}
+    }
+}
