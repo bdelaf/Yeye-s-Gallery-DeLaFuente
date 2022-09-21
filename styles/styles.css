@@ -8,14 +8,14 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
     color: grey;
-    line-height: 1.6;
+    line-height: 1.6 !important;
     background: rgb(52,150,193);
 }
 
 .hero{
-    background: linear-gradient(49deg, rgba(52,150,193,1) 36%, rgba(34,86,195,1) 69%, rgba(45,175,253,1) 94%);
+    background: #03072a;
     height: 155vh;
     max-width: auto;
 }
@@ -95,6 +95,82 @@ a {
     height: 500px;
 }
 
+.card{
+    padding: 10px 20px;
+    backdrop-filter:blur(6px);
+    border-radius: 20px !important;
+    border: 2px solid rgb(255 255 255 / 13%)!important;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255,255,255,0.06) !important;
+    box-shadow: 20px 20px 22px rgb(0 0 0 / 20%);
+    height: 400px !important;
+
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+.card-text{
+    font-weight: 400;
+}
+
+.circle{
+    width:60px;
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: linear-gradient(93deg,#6d00e1,#270c8aeb);
+    transform:translateY(-32px);
+    border-radius:50%;
+    box-shadow:#2100e2db 0px 28px 71px 8px;
+}
+.circle i{
+    font-size:25px;
+    font-weight:700;
+}
+.circle1{
+    background: linear-gradient(93deg, #ffff00,#ff4800);
+    box-shadow:#e2d600db 0px 28px 71px 8px;
+}
+.circle3{
+    background: linear-gradient(93deg, #14ff00,#01995a);
+    box-shadow:#1de200db 0px 28px 71px 8px;
+}
+.btn{
+    outline:none;
+    display:flow-root !important;
+    width:fit-content;
+    margin:auto;
+    padding:10px 20px;
+    color:#fff !important;
+    border:2px solid rgb(255 255 255 / 13%) !important;
+    border-radius:50px !important;
+}
+.btn:hover{
+    color:#fff;
+    outline:none;
+}
+.btn1:hover{
+    border:0px !important;
+    background: linear-gradient(93deg,#6d00e1,#270c8aeb);
+    box-shadow:#2100e2db 0px 28px 71px 8px;
+}
+.btn2:hover{
+    border:0px !important;
+    background: linear-gradient(93deg, #ffff00,#ff4800);
+    box-shadow:#e2d600db 0px 28px 71px 8px;
+}
+.btn3:hover{
+    border:0px !important;
+    background: linear-gradient(93deg, #14ff00,#01995a);
+    box-shadow:#1de200db 0px 28px 71px 8px;
+}
+
+
+
 .container-padre{
     height: 700px;
     justify-content: space-evenly;
@@ -121,7 +197,7 @@ a {
 
 .footer{
     width: 100%;
-    background-color: rgb(6, 6, 43);
+    background-color: black;
 }
 
 .footer .container-1{
