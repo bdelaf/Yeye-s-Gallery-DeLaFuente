@@ -491,7 +491,7 @@ h1{
 @media screen and (max-width:800px){
     .hero-nosotros{
         background: #03072a;
-        height: 130vh;
+        height: 150vh;
         max-width: auto;
         
     }
@@ -506,5 +506,35 @@ h1{
 @media screen and (max-width: 800px){
     .hero-tienda{
         height: 700vh;
+    }
+}
+
+@media screen and (max-height: 800px){
+    .hero{
+        height: 300vh;
+    }
+}
+
+@media screen and (max-height: 625px){
+    .hero{
+        height: 350vh;
+    }
+}
+
+@media screen and (max-height: 900px){
+    .hero-nosotros{
+        height: 230vh;
+    }
+}
+
+@media screen and (max-height: 900p){
+    .hero-tienda{
+        height: 800vh;
+    }
+}
+
+@media screen and (max-width: 661px){
+    .hero-tienda{
+        height: 720vh;
     }
 }
