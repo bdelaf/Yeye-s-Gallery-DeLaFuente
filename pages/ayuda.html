@@ -13,102 +13,118 @@
     <title>Yeye's Gallery - Contacto</title>
     <meta name="description" content="Contacta con nuestro equipo!">
     <meta name="keywords" content="Cuadros, Galeria de fotos, Fotos 4k 2k HD, Todo el mundo">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
-<body class="body-ayuda">
-    <div class="navbar">
-        <div class="container flex">
-            <h1 class="logo">Yeye's Gallery.<a href="../index.html"></a></h1>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="./pages/cuadros.html">Cuadros</a></li>
-                    <li><a href="./pages/ubiacion.html">Ubicacion</a></li>
-                </ul>
-            </nav>
-            <a class="contacto-navbar" href="../pages/ayuda.html"><button>Contacto</button></a>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+           <span class="text primary fs-5 fw-bold">YG.</span> 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link me-5" href="../pages/nosotros.html">Nosotros</a>
+              <a class="nav-link me-5" href="../pages/cuadros.html">Tienda</a>
+              <a class="nav-link me-5" href="../pages/ubicacion.html">Ubicacion</a>
+              <a href="../pages/ayuda.html" > <button type="button" class="btn btn-outline-primary">Contacto</button></a>
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="content">
-
-        <h1 class="ayuda-logo">Contactanos</h1>
-        <div class="content-wrapper">
-            <div class="contact-form">
-                <h3>Rellena el formulario</h3>
-                <form action="">
-                <p>
-                    <label>Nombre completo</label>
-                    <input type="text" name="Nombre completo">
-                </p>
-                <p>
-                    <label>Email</label>
-                    <input type="email" name="email">
-                </p>
-                <p>
-                    <label>Phone</label>
-                    <input type="tel" name="Telefono">
-               </p>
-               <p>
-                    <label>Asunto</label>
-                    <input type="text" name="affair">
-               </p>
-               <p class="block">
-                <label>Mensaje</label>
-                <textarea name="mensaje" rows="3"></textarea>
-               </p>
-               <p class="block">
-                    <button type="submit">
-                        Enviar
-                    </button>
-               </p>
-            </form>
-            </div>
-            <div class="contact-info">
-                <h4>Mas informacion</h4>
-                <ul>
-                    <li><i class="fa fa-location-dot"> Ubicacion </i></li>
-                    <li><i class="fa fa-phone"> +54 *** **** **** </i></li>
-                    <li><i class="fa fa-envelope-open-text"> lorem@gmail.com </i></li>
-                </ul>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, similique deleniti aperiam eos excepturi quisquam eligendi impedit fugiat itaque provident?
-
-                </p>
-                <p>
-                    yeyegallery.com
-                </p>
-            </div>
-        </div>
-
-    </div>
-    <footer class="footer">
-        <div class="container-1">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                      <img src="../imagenes/logo.png">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2><a href="./pages/nosotros.html" class="sn-footer">Sobre nosotros</a></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, qui?</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed!</p>    
-            </div>
-            <div class="box">
-                <h2>Siguenos</h2>
-                <div class="redes-sociales">
-                    <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
-                    <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
-                    <a href="https://www.instagram.com/" class="fa fa-instagram"target="_blank"></a>
-                    <a href="https://www.youtube.com/" class="fa fa-youtube"target="_blank"></a>
-                </div>
-            </div>
-        </div>
-        <div class="container-2">
-            <small>&copy; 2022 <b>Yeye's Gallery</b> - Todos los derechos reservados</small>
-        </div>
-    </footer>
+      </nav>
+<div class="container-fluid">
+    <div class="container">
+      <div>
+        <h2 class="text-center mb-5 shadow-sm p-3">Contactanos</h2>
+      </div>
     
+        <div class="row">
+            <div class="col-md-7 shadow rounded p- 5">
+             <div class="row">
+                 <div class="col mb-3">
+                     <label class="form-label">Primer nombre</label>
+                     <input type="text" class="form-control" placeholder="Primer nombre">
+                 </div>
+                 <div class="col mb-3">
+                    <label class="form-label">Apellido</label>
+                    <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="text" class="form-control" placeholder="nombre@gmail">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Asunto</label>
+                <input type="text" class="form-control" placeholder="Asunto">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Mensaje</label>
+                <textarea name="" class="form-control" placeholder="Escribe tu mensaje" rows="3"></textarea>
+            </div>
+            </div>
+        
+            
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Enviar
+  </button>
+  
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Yeye's Gallery</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Muchas gracias!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+        <div class="col-md-5 bg-light">
+            <div class="ml-5">
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer mt-5">
+  <div class="container-1">
+      <div class="box">
+          <figure>
+              <a href="#">
+                <img class="logo-footer" src="../imagenes/logo.png">
+              </a>
+          </figure>
+      </div>
+      <div class="box">
+          <h2><a href="./pages/nosotros.html" class="sn-footer">Sobre nosotros</a></h2>
+          <p class="p-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, qui?</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed!</p>    
+      </div>
+      <div class="box">
+          <h2>Siguenos</h2>
+          <div class="redes-sociales">
+              <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+              <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+              <a href="https://www.instagram.com/" class="fa fa-instagram"target="_blank"></a>
+              <a href="https://www.youtube.com/" class="fa fa-youtube"target="_blank"></a>
+          </div>
+      </div>
+  </div>
+  <div class="container-2">
+      <small>&copy; 2022 <b>Yeye's Gallery</b> - Todos los derechos reservados</small>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>   
 </body>
 </html>
